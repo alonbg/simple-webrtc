@@ -22,7 +22,7 @@
 
             engine.initShakaPlayer(player);
 
-            player.load("https://akamai-axtest.akamaized.net/routes/lapd-v1-acceptance/www_c4/Manifest.mpd").catch(onError);
+            player.load("/stream").catch(onError);
         } else {
             document.write("Not supported :(");
         }
